@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('form-message').value;
 
         // Construct mailto link
-        const mailtoLink = `mailto:motwani@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Inquiry from ' + name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+        const mailtoLink = `mailto:mohitmotwani314@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Inquiry from ' + name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
         window.location.href = mailtoLink;
 
         // Show success feedback
